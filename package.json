@@ -1,0 +1,25 @@
+{
+  "name": "starting_with_tailwind",
+  "version": "1.0.0",
+  "description": "\"# starting_with_tailwind\"",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateus-cirino/starting_with_tailwind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateus-cirino/starting_with_tailwind/issues"
+  },
+  "homepage": "https://github.com/mateus-cirino/starting_with_tailwind#readme"
+}
